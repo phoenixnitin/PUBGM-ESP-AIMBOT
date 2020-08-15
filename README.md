@@ -19,9 +19,6 @@ Features:
 - Enemy State
 - Enemy Weapon
 
-# Contact 
-- Discord Only : Ahmed Moorsy#6939
-
 # References :-
 - Google.
 - Youtube.
@@ -30,3 +27,16 @@ Features:
 - https://github.com/huddhudd/crappy-esp
 - https://www.unknowncheats.me/forum/pubg-mobile/354946-source-code-esp-pubg-mobile-0-16-5-safu_iraq.html
 - https://www.unknowncheats.me/forum/pubg-mobile/379241-esp-source-pubgm-v0-17-0-gameloop.html
+
+
+### Setup:
+- Clone this repo
+- Download nuget <https://dist.nuget.org/win-x86-commandline/latest/nuget.exe>
+- Set nuget path into environment variables
+- Do:
+  > nuget install packages.config -OutputDirectory packages
+  > dotnet build PUBESP.sln -c Release
+- Copy files "BypaPH.dll" and "kprocesshacker.sys" from depencies folder to bin\Release
+- Start PUBG in Gameloop
+- Execute PUBESP.exe
+- Inject
